@@ -2,10 +2,10 @@ import React from 'react';
 
 import './Button.css';
 
-type Props = {
+interface Props {
     btn: string;
     onClick: (btn: string) => void;
-};
+}
 
 const Button: React.FC<Props> = ({ btn, onClick }) => {
     return (
