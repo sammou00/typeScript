@@ -14,7 +14,7 @@ const App: React.FC<AppProps> = () => {
     return (
         <Container maxWidth="sm">
             <Typography variant="h4" component="h1" gutterBottom>
-                Form
+                Login Form
             </Typography>
             <Form handleSubmit={handleSubmit} />
         </Container>
