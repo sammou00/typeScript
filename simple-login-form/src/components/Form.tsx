@@ -2,23 +2,31 @@ import React, { useState } from 'react';
 import { TextField, Button, Container, Box, Alert } from '@mui/material';
 
 interface FormProps {
-    handleSubmit: (firstName: string, lastName: string) => void;
+    handleSubmit: (username: string, email: string) => void;
 }
 
+const validateEmail = (email: string): boolean => {
+    const re = /\S+@\S+\.\S+/;
+    return re.test(email);
+};
+
 const Form: React.FC<FormProps> = ({ handleSubmit }) => {
-    const [firstName, setFirstName] = useState<string>('');
-    const [lastName, setLastName] = useState<string>('');
+    const [username, setUsername] = useState<string>('');
+    const [email, setEmail] = useState<string>('');
     const [error, setError] = useState<string>('');
 
     const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        if (firstName === '' || lastName === '') {
+
+        if (!username || !email) {
             setError('Please fill out all fields');
+        } else if (!validateEmail(email)) {
+            setError('Please enter a valid email address');
         } else {
             setError('');
-            handleSubmit(firstName, lastName);
-            setFirstName('');
-            setLastName('');
+            handleSubmit(username, email);
+            setUsername('');
+            setEmail('');
         }
     };
 
@@ -37,22 +45,22 @@ const Form: React.FC<FormProps> = ({ handleSubmit }) => {
                 autoComplete="off"
             >
                 <TextField
-                    id="first-name"
-                    name="first-name"
-                    label="First Name"
+                    id="username"
+                    name="username"
+                    label="Username"
                     variant="outlined"
                     fullWidth
-                    value={firstName}
-                    onChange={(e) => setFirstName(e.target.value)}
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
                 />
                 <TextField
-                    id="last-name"
-                    name="last-name"
-                    label="Last Name"
+                    id="email"
+                    name="email"
+                    label="Email"
                     variant="outlined"
                     fullWidth
-                    value={lastName}
-                    onChange={(e) => setLastName(e.target.value)}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                 />
                 {error && (
                     <Alert severity="error" sx={{ width: '100%' }}>

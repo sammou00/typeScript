@@ -7,8 +7,8 @@ import Form from './components/Form';
 interface AppProps {}
 
 const App: React.FC<AppProps> = () => {
-    const handleSubmit = (firstName: string, lastName: string) => {
-        console.log(`First Name: ${firstName}, Last Name: ${lastName}`);
+    const handleSubmit = (username: string, email: string) => {
+        console.log(`User Name: ${username}, Email: ${email}`);
     };
 
     return (
