@@ -1,405 +1,409 @@
-# TypeScript Projects
+# JavaScript Projects
+
+This document outlines a series of Typescript programming projects, ranging from beginner to advanced levels. Each project includes a brief description.
 
 ## Beginner Projects
 
-### [1. Hello World](./hello-world)
+### 1. [Hello World](./hello-world)
 
-Create a simple TypeScript script to display "Hello World" in the console.
+A simple program that prints "Hello, World!" to the console. This project introduces basic syntax and the structure of a JavaScript program.
 
-### [2. Basic Calculator](./basic-calculator)
+### 2. [Basic Calculator](./basic-calculator)
 
-Develop a basic calculator to perform addition, subtraction, multiplication, and division.
+A console-based calculator that performs basic arithmetic operations. Covers user input, basic arithmetic, and conditionals.
 
-### [3. Simple Login Form](./simple-login-form)
+### 3. [Temperature Converter](./temperature-converter)
 
-Create a simple login form with hardcoded username and password validation.
+Converts temperatures between Celsius and Fahrenheit. Demonstrates functions and basic arithmetic operations.
 
-### [4. Todo List](./todo-list)
+### 4. [Todo List](./todo-list)
 
-Build a todo list application where users can add, edit, and delete tasks.
+A simple todo list application. Introduces DOM manipulation and event handling.
 
-### [5. Stopwatch](./stopwatch)
+### 5. [Random Quote Generator](./random-quote-generator)
 
-Create a simple stopwatch application with start, stop, and reset functionalities.
+Generates random quotes and displays them on a webpage. Introduces arrays and random number generation.
 
-### [6. Contact Form](./contact-form)
+### 6. [Tip Calculator](./tip-calculator)
 
-Develop a contact form that validates input fields and displays the collected data.
+Calculates the tip amount based on the bill total and tip percentage. Covers basic arithmetic and user input.
 
-### [7. Random Quote Generator](./random-quote-generator)
+### 7. [Simple Clock](./simple-clock)
 
-Build a random quote generator that displays a new quote on each button click.
+Displays a digital clock on a webpage. Introduces date and time manipulation in JavaScript.
 
-### [8. Temperature Converter](./temperature-converter)
+### 8. [BMI Calculator](./bmi-calculator)
 
-Create a temperature converter to convert between Celsius and Fahrenheit.
+Calculates the Body Mass Index (BMI) based on weight and height inputs. Covers basic arithmetic and conditional statements.
 
-### [9. Simple REST API](./simple-rest-api)
+### 9. [Palindrome Checker](./palindrome-checker)
 
-Develop a basic REST API with CRUD operations.
+Checks if a given string is a palindrome. Demonstrates string manipulation and conditionals.
 
-### [10. Weather App](./weather-app)
+### 10. [Number Guessing Game](./number-guessing-game)
 
-Build a weather application that fetches and displays weather data using an API.
+A simple number guessing game where the user has to guess a randomly generated number. Introduces conditional statements and loops.
 
-### [11. Simple Calculator with GUI](./simple-calculator-gui)
+### 11. [Currency Converter](./currency-converter)
 
-Create a simple calculator with a graphical user interface.
+Converts currency from one unit to another based on current exchange rates. Introduces API usage and asynchronous programming.
 
-### [12. Currency Converter](./currency-converter)
+### 12. [Weather App](./weather-app)
 
-Develop a currency converter using an external API for exchange rates.
+Fetches and displays weather information based on user input. Introduces API usage and DOM manipulation.
 
-### [13. Countdown Timer](./countdown-timer)
+### 13. [Simple Paint App](./simple-paint-app)
 
-Build a countdown timer that counts down from a specified time.
+A basic paint application where users can draw on a canvas. Covers DOM manipulation and event handling.
 
-### [14. Digital Clock](./digital-clock)
+### 14. [Rock-Paper-Scissors Game](./rock-paper-scissors)
 
-Create a digital clock that displays the current time and updates every second.
+A simple implementation of the classic game where the user plays against the computer. Introduces conditional statements and user input.
 
-### [15. Tip Calculator](./tip-calculator)
+### 15. [Password Generator](./password-generator)
 
-Develop a tip calculator to calculate tips based on the bill amount and tip percentage.
+Generates random passwords based on user-defined criteria. Covers string manipulation and random number generation.
 
-### [16. Simple To-Do List with Local Storage](./simple-todo-list-local-storage)
+### 16. [Quiz App](./quiz-app)
 
-Build a to-do list application that saves tasks in local storage.
+A basic quiz application with multiple-choice questions. Introduces arrays, objects, and event handling.
 
-### [17. Rock, Paper, Scissors Game](./rock-paper-scissors)
+### 17. [To-Do List App](./to-do-list-app)
 
-Create a simple rock, paper, scissors game where the user can play against the computer.
+A to-do list application that allows users to add, edit, and delete tasks. Covers DOM manipulation and event handling.
 
-### [18. BMI Calculator](./bmi-calculator)
+### 18. [Recipe Finder](./recipe-finder)
 
-Develop a BMI calculator to calculate the Body Mass Index.
+Fetches recipes based on user input and displays them. Introduces API usage and asynchronous programming.
 
-### [19. Form Validation](./form-validation)
+### 19. [Simple Chat App](./simple-chat-app)
 
-Build a form with various input fields and validate the input.
+A basic chat application that allows users to send and receive messages. Covers client-server communication and WebSocket usage.
 
-### [20. Color Picker](./color-picker)
+### 20. [Memory Game](./memory-game)
 
-Create a color picker tool that allows users to select and display colors.
-
-### [21. Quote of the Day](./quote-of-the-day)
-
-Build an application that fetches and displays a quote of the day.
-
-### [22. Dice Roller](./dice-roller)
-
-Create a dice roller application that simulates rolling one or more dice.
-
-### [23. Palindrome Checker](./palindrome-checker)
-
-Develop an application that checks if a given string is a palindrome.
-
-### [24. Password Generator](./password-generator)
-
-Build a random password generator with options for length and character types.
-
-### [25. Shopping List](./shopping-list)
-
-Create a shopping list application where users can add and remove items.
-
-### [26. User Registration Form](./user-registration-form)
-
-Develop a user registration form with validation and error messages.
-
-### [27. Number Guessing Game](./number-guessing-game)
-
-Build a number guessing game where the user has to guess a randomly generated number.
-
-### [28. Flashcards](./flashcards)
-
-Create a flashcards application to help users study and memorize information.
-
-### [29. Markdown Previewer](./markdown-previewer)
-
-Develop a Markdown previewer that converts Markdown input to HTML.
-
-### [30. Expense Tracker](./expense-tracker)
-
-Build an expense tracker to track income and expenses.
-
-### [31. Hangman Game](./hangman-game)
-
-Create a hangman game where users guess letters to form a word.
-
-### [32. Memory Game](./memory-game)
-
-Develop a memory card game where users match pairs of cards.
-
-### [33. Chat Application](./chat-application)
-
-Build a basic chat application with real-time messaging.
-
-### [34. Photo Gallery](./photo-gallery)
-
-Create a photo gallery to display and organize images.
-
-### [35. Quiz App](./quiz-app)
-
-Develop a quiz application with multiple-choice questions.
-
-### [36. Currency Exchange App](./currency-exchange-app)
-
-Build a currency exchange application using an external API.
-
-### [37. Interactive Map](./interactive-map)
-
-Create an interactive map with markers and popups.
-
-### [38. Recipe App](./recipe-app)
-
-Develop a recipe application to browse and search for recipes.
-
-### [39. URL Shortener](./url-shortener)
-
-Build a URL shortener service.
-
-### [40. Pomodoro Timer](./pomodoro-timer)
-
-Create a Pomodoro timer to manage work and break intervals.
-
-### [41. Stock Price Tracker](./stock-price-tracker)
-
-Develop an application to track and display stock prices using an API.
-
-### [42. Word Counter](./word-counter)
-
-Build an application that counts words and characters in a text input.
-
-### [43. Image Carousel](./image-carousel)
-
-Create an image carousel to display a series of images.
-
-### [44. Unit Converter](./unit-converter)
-
-Develop a unit converter to convert between different units of measurement.
-
-### [45. Shopping Cart](./shopping-cart)
-
-Build a shopping cart for an e-commerce site.
-
-### [46. Notes App](./notes-app)
-
-Create a notes application to take and organize notes.
-
-### [47. Personal Portfolio](./personal-portfolio)
-
-Develop a personal portfolio website to showcase your projects.
-
-### [48. Chatbot](./chatbot)
-
-Build a simple chatbot that can answer predefined questions.
-
-### [49. Music Player](./music-player)
-
-Create a music player that can play, pause, and skip tracks.
-
-### [50. Task Management System](./task-management-system)
-
-Develop a task management system to create and organize tasks.
+A simple memory game where users have to match pairs of cards. Introduces DOM manipulation and event handling.
 
 ## Intermediate Projects
 
-### [51. Blogging Platform](./blogging-platform)
+### 21. [Expense Tracker](./expense-tracker)
 
-Build a blogging platform where users can create and manage blog posts.
+A web-based application for tracking expenses and budgeting. Covers data storage, authentication, and CRUD operations.
 
-### [52. Job Board](./job-board)
+### 22. [Task Manager](./task-manager)
 
-Develop a job board where users can post and apply for jobs.
+A task management application with features like task creation, assignment, and tracking. Introduces CRUD operations and user authentication.
 
-### [53. E-commerce Website](./e-commerce-website)
+### 23. [Blog Website](./blog-website)
 
-Create a full-featured e-commerce website with product listings, shopping cart, and checkout.
+A simple blog website where users can create, read, update, and delete blog posts. Covers CRUD operations, authentication, and authorization.
 
-### [54. Social Media Dashboard](./social-media-dashboard)
+### 24. [Weather Dashboard](./weather-dashboard)
 
-Build a social media dashboard to manage and analyze social media accounts.
+A dashboard that displays weather information for multiple locations. Introduces API usage, data visualization, and asynchronous programming.
 
-### [55. Real-time Chat Application](./real-time-chat-application)
+### 25. [Book Search App](./book-search-app)
 
-Develop a real-time chat application with user authentication and message persistence.
+An application for searching and displaying books based on user input. Introduces API usage, pagination, and filtering.
 
-### [56. Online Marketplace](./online-marketplace)
+### 26. [Calendar App](./calendar-app)
 
-Create an online marketplace for buying and selling products.
+A web-based calendar application with features like event creation, editing, and sharing. Covers calendar integration and event handling.
 
-### [57. Learning Management System (LMS)](./learning-management-system)
+### 27. [Recipe Book](./recipe-book)
 
-Build a Learning Management System to manage courses and students.
+An application for storing and organizing recipes. Covers CRUD operations, data storage, and user interface design.
 
-### [58. Task Scheduler](./task-scheduler)
+### 28. [Music Player](./music-player)
 
-Develop a task scheduler to automate tasks based on time and date.
+A web-based music player that allows users to play, pause, and skip tracks. Introduces audio playback, playlists, and user interface design.
 
-### [59. Real Estate Listing](./real-estate-listing)
+### 29. [Movie Recommendation App](./movie-recommendation-app)
 
-Create a system to manage real estate listings.
+An application that recommends movies based on user preferences and viewing history. Introduces recommendation algorithms and user profiling.
 
-### [60. Collaborative Document Editor](./collaborative-document-editor)
+### 30. [Social Media Dashboard](./social-media-dashboard)
 
-Build a collaborative document editor with real-time updates.
+A dashboard for managing social media accounts and scheduling posts. Covers API integration, analytics, and user interface design.
 
-### [61. Personal Finance Manager](./personal-finance-manager)
+### 31. [Finance Tracker](./finance-tracker)
 
-Develop a personal finance manager to track income, expenses, and budgets.
+A finance tracking application that helps users manage expenses, investments, and budgets. Introduces data visualization, financial calculations, and user authentication.
 
-### [62. Fitness Tracker](./fitness-tracker)
+### 32. [Travel Planner](./travel-planner)
 
-Create a fitness tracking application to log workouts and track progress.
+An application for planning trips, including itinerary creation, transportation booking, and accommodation search. Covers API integration, maps, and user interface design.
 
-### [63. Online Poll System](./online-poll-system)
+### 33. [Job Search App](./job-search-app)
 
-Build a system to create and manage online polls.
+An application for searching and applying for jobs. Introduces job board integration, resume management, and job application tracking.
 
-### [64. Event Management System](./event-management-system)
+### 34. [Recipe Sharing Platform](./recipe-sharing-platform)
 
-Develop an event management system to organize and manage events.
+A platform for users to share recipes, rate recipes, and engage with other users. Covers user-generated content, ratings, and social features.
 
-### [65. Inventory Management System](./inventory-management-system)
+### 35. [E-commerce Website](./e-commerce-website)
 
-Create a system to manage inventory for a business.
+An e-commerce website with features like product listings, shopping cart, and checkout. Introduces payment processing, order management, and inventory tracking.
 
-### [66. Travel Booking System](./travel-booking-system)
+### 36. [Fitness Tracker](./fitness-tracker)
 
-Build a system for booking flights, hotels, and travel packages.
+A web-based application for tracking fitness goals, workouts, and progress. Covers activity tracking, data visualization, and user engagement.
 
-### [67. Video Streaming Platform](./video-streaming-platform)
+### 37. [Budget Planner](./budget-planner)
 
-Develop a video streaming platform with user-uploaded content.
+An application for budgeting and financial planning. Introduces expense categorization, budget
 
-### [68. Online Auction System](./online-auction-system)
+### 38. [Language Learning App](./language-learning-app)
 
-Create an online auction platform to manage listings and bids.
+An application for learning new languages through interactive exercises and quizzes. Introduces language learning modules, progress tracking, and user engagement.
 
-### [69. Recipe Sharing Platform](./recipe-sharing-platform)
+### 39. [Music Recommendation Engine](./music-recommendation-engine)
 
-Build a platform where users can share and discover recipes.
+An engine that recommends music based on user preferences, listening history, and mood. Introduces recommendation algorithms and music analysis.
 
-### [70. Subscription Management System](./subscription-management-system)
+### 40. [Job Board](./job-board)
 
-Develop a system to manage subscriptions and recurring payments.
+A platform for posting and applying for job listings. Covers user authentication, job search filters, and application tracking.
 
-### [71. Multi-user Calendar](./multi-user-calendar)
+### 41. [Real Estate Listings](./real-estate-listings)
 
-Create a multi-user calendar application to manage events and appointments.
+A website for listing and searching real estate properties. Introduces property listings, search filters, and map integration.
 
-### [72. Customer Support Ticket System](./customer-support-ticket-system)
+### 42. [Recipe Search Engine](./recipe-search-engine)
 
-Build a system to manage customer support tickets.
+A search engine for finding recipes based on ingredients, dietary restrictions, and cuisine. Introduces search algorithms and recipe categorization.
 
-### [73. Forum System](./forum-system)
+### 43. [Fitness Challenge App](./fitness-challenge-app)
 
-Develop a forum system with discussion boards and user profiles.
+An app that challenges users to complete fitness tasks and goals. Introduces challenges, leader boards, and social features.
 
-### [74. Online Exam System](./online-exam-system)
+### 44. [Event Planning Platform](./event-planning-platform)
 
-Create a system for conducting and managing online exams.
+A platform for planning and managing events, including invitations, RSVPs, and schedules. Covers event management, notifications, and guest lists.
 
-### [75. Real-time Notification System](./real-time-notification-system)
+### 45. [Project Management Tool](./project-management-tool)
 
-Build a real-time notification system using WebSockets.
+A tool for managing projects, tasks, and team collaboration. Introduces project boards, task assignments, and progress tracking.
 
-### [76. E-learning Platform](./e-learning-platform)
+### 46. [News Aggregator](./news-aggregator)
 
-Develop an e-learning platform with courses, quizzes, and certificates.
+An application that aggregates news articles from various sources and categories. Introduces news API integration, categorization, and personalized feeds.
 
-### [77. Task Collaboration Tool](./task-collaboration-tool)
+### 47. [Recipe Generator](./recipe-generator)
 
-Create a tool for task collaboration with team management features.
+A tool that generates recipes based on available ingredients and dietary preferences. Introduces recipe algorithms and nutritional analysis.
 
-### [78. Project Management Tool](./project-management-tool)
+### 48. [Language Translation App](./language-translation-app)
 
-Build a project management tool to create and manage projects and tasks.
+An application for translating text between different languages. Introduces translation APIs and language detection.
 
-### [79. Online Store with Admin Panel](./online-store-admin-panel)
+### 49. [Task Scheduler](./task-scheduler)
 
-Develop an online store with an admin panel for managing products, orders, and customers.
+A scheduler for organizing tasks, appointments, and reminders. Introduces calendar integration, notifications, and recurring tasks.
 
-### [80. Photo Editing Application](./photo-editing-application)
+### 50. [Polling App](./polling-app)
 
-Create a photo editing application with
+An app for creating and conducting polls, surveys, and quizzes. Covers user-generated polls, responses, and analytics.
 
-### [81. Photo Editing Application](./photo-editing-application)
+### 51. [Social Network Analysis Tool](./social-network-analysis-tool)
 
-Create a photo editing application with basic editing features like crop, resize, and filters.
+A tool for analyzing social network data, including connections, interactions, and influencers. Introduces social graph analysis and visualization.
 
-### [82. Multi-Tenant Application](./multi-tenant-application)
+### 52. [Book Recommendation Engine](./book-recommendation-engine)
 
-Develop a multi-tenant application to manage multiple clients' data.
+An engine that recommends books based on user preferences, reading history, and genres. Introduces recommendation algorithms and book metadata.
 
-### [83. File Sharing Platform](./file-sharing-platform)
+### 53. [Food Delivery App](./food-delivery-app)
 
-Build a platform to upload, share, and download files.
+An application for ordering food from restaurants for delivery or pickup. Covers restaurant listings, menus, and order tracking.
 
-### [84. Healthcare Management System](./healthcare-management-system)
+### 54. [Online Learning Platform](./online-learning-platform)
 
-Create a system to manage patient records, appointments, and billing.
+A platform for hosting and accessing online courses, tutorials, and educational content. Introduces course management, user progress tracking, and certificates.
 
-### [85. Chatbot with NLP](./chatbot-with-nlp)
+### 55. [Travel Guide App](./travel-guide-app)
 
-Develop a chatbot with Natural Language Processing capabilities.
+An app that provides travel guides, recommendations, and itineraries for popular destinations. Covers destination information, maps, and reviews.
 
-### [86. Sports Management System](./sports-management-system)
+### 56. [Task Automation Tool](./task-automation-tool)
 
-Build a system to manage sports teams, fixtures, and results.
+A tool for automating repetitive tasks and workflows. Introduces task scheduling, scripting, and automation rules.
 
-### [87. Multi-Player Game](./multi-player-game)
+### 57. [Event Ticketing Platform](./event-ticketing-platform)
 
-Create a simple multi-player game with real-time interactions.
+A platform for selling and purchasing tickets for events, concerts, and shows. Covers ticket listings, purchases, and event management.
 
-### [88. HR Management System](./hr-management-system)
+### 58. [Property Rental Platform](./property-rental-platform)
 
-Develop a system to manage employee records, attendance, and payroll.
+A platform for renting and leasing properties, including apartments, houses, and vacation rentals. Introduces property listings, bookings, and payments.
 
-### [89. Task Automation Tool](./task-automation-tool)
+### 59. [Finance Portfolio Tracker](./finance-portfolio-tracker)
 
-Build a tool to automate repetitive tasks using a scheduling system.
+A tool for tracking investment portfolios, stocks, and financial assets. Covers portfolio management, stock quotes, and performance analysis.
 
-### [90. Knowledge Base System](./knowledge-base-system)
+### 60. [Social Media Analytics Dashboard](./social-media-analytics-dashboard)
 
-Create a knowledge base system to manage articles and documentation.
+A dashboard for analyzing social media performance, engagement, and audience metrics. Introduces data visualization, analytics, and reporting.
 
-### [91. Financial Dashboard](./financial-dashboard)
+## Advanced Projects
 
-Develop a financial dashboard to visualize income, expenses, and investments.
+### 61. [Resume Builder](./resume-builder)
 
-### [92. Online Quiz System](./online-quiz-system)
+An online tool for creating and customizing resumes, CVs, and job application materials. Covers resume templates, sections, and formatting.
 
-Build an online quiz system with multiple-choice questions and results tracking.
+### 62. [eBook Reader](./ebook-reader)
 
-### [93. IoT Dashboard](./iot-dashboard)
+A web-based eBook reader for reading digital books and publications. Introduces eBook formats, reading modes, and bookmarking.
 
-Create a dashboard to monitor and control IoT devices.
+### 63. [Language Exchange Platform](./language-exchange-platform)
 
-### [94. Learning Path Tracker](./learning-path-tracker)
+A platform for language learners to find language exchange partners and practice speaking skills. Covers user profiles, matching, and chat.
 
-Develop a tool to track and manage learning paths and progress.
+### 64. [Customer Relationship Management (CRM) System](./crm-system)
 
-### [95. Video Conferencing App](./video-conferencing-app)
+A system for managing customer relationships, interactions, and sales leads. Introduces CRM features, contact management, and sales pipelines.
 
-Build a video conferencing application with real-time video and chat.
+### 65. [Appointment Scheduling App](./appointment-scheduling-app)
 
-### [96. Online Food Ordering System](./online-food-ordering-system)
+An app for scheduling appointments, bookings, and reservations for services. Covers availability, calendar integration, and reminders.
 
-Create an online food ordering system for restaurants.
+### 66. [Home Budgeting App](./home-budgeting-app)
 
-### [97. Data Visualization Tool](./data-visualization-tool)
+An app for managing household budgets, expenses, and financial goals. Covers budget categories, spending analysis, and savings tracking.
 
-Develop a tool to visualize data using charts and graphs.
+### 67. [Fitness Class Booking Platform](./fitness-class-booking-platform)
 
-### [98. Portfolio Management System](./portfolio-management-system)
+A platform for booking fitness classes, gym sessions, and workout appointments. Covers class schedules, memberships, and payments.
 
-Build a system to manage investment portfolios and track performance.
+### 68. [Music Streaming Service](./music-streaming-service)
 
-### [99. News Aggregator](./news-aggregator)
+A music streaming platform for listening to songs, playlists, and albums online. Introduces music catalogs, streaming protocols, and user accounts.
 
-Create a news aggregator to fetch and display news from various sources.
+### 69. [Language Learning Game](./language-learning-game)
 
-### [100. Virtual Classroom](./virtual-classroom)
+A game-based approach to language learning with interactive exercises and challenges. Covers gamification, progress tracking, and feedback.
 
-Develop a virtual classroom application with video lectures, assignments, and discussions.
+### 70. [Event Discovery App](./event-discovery-app)
+
+An app for discovering and exploring local events, concerts, and activities. Introduces event listings, recommendations, and location-based search.
+
+### 71. [Fitness Challenge Tracker](./fitness-challenge-tracker)
+
+A tool for tracking fitness challenges, goals, and achievements. Covers challenge categories, progress tracking, and leader boards
+
+### 72. [Personal Budgeting App](./personal-budgeting-app)
+
+An app for managing personal finances, expenses, and budgets. Covers budget planning, expense tracking, and financial reports.
+
+### 73. [Tutoring Platform](./tutoring-platform)
+
+A platform for connecting tutors with students for online tutoring sessions. Introduces tutoring profiles, scheduling, and payment processing.
+
+### 74. [Language Vocabulary Builder](./language-vocabulary-builder)
+
+An app for building and practicing language vocabulary through quizzes and exercises. Covers vocabulary lists, flashcards, and quizzes.
+
+### 75. [Meditation Timer](./meditation-timer)
+
+A timer for meditation sessions with customizable durations and sounds. Introduces mindfulness practices and timer controls.
+
+### 76. [Job Interview Prep App](./job-interview-prep-app)
+
+An app for preparing for job interviews with practice questions, mock interviews, and tips. Covers interview questions, answers, and feedback.
+
+### 77. [Document Collaboration Tool](./document-collaboration-tool)
+
+A tool for collaborating on documents, presentations, and spreadsheets in real-time. Introduces document editing, versioning, and commenting.
+
+### 78. [Online Quiz Platform](./online-quiz-platform)
+
+A platform for creating and taking online quizzes, tests, and assessments. Covers quiz creation, scoring, and analytics.
+
+### 79. [Music Playlist Generator](./music-playlist-generator)
+
+An app that generates music playlists based on mood, genre, or activity. Introduces playlist algorithms, music analysis, and user preferences.
+
+### 80. [Personal Journal App](./personal-journal-app)
+
+An app for journaling thoughts, feelings, and experiences. Covers journal entries, tags, and search functionality.
+
+### 81. [Recipe Meal Planner](./recipe-meal-planner)
+
+An app for planning meals and generating grocery lists based on recipes. Introduces meal planning, shopping lists, and recipe categorization.
+
+### 82. [Virtual Classroom](./virtual-classroom)
+
+A virtual classroom platform for hosting online lectures, discussions, and assignments. Covers live sessions, recordings, and student interaction.
+
+### 83. [Travel Expense Tracker](./travel-expense-tracker)
+
+An app for tracking travel expenses, receipts, and budgets during trips. Covers expense categorization, currency conversion, and trip summaries.
+
+### 84. [Event Ticketing App](./event-ticketing-app)
+
+An app for purchasing tickets and accessing events, concerts, and shows. Introduces ticket listings, seat selection, and event notifications.
+
+### 85. [Book Reading Tracker](./book-reading-tracker)
+
+An app for tracking reading progress, book lists, and reading goals. Covers book logging, progress tracking, and reading statistics.
+
+### 86. [Home Workout App](./home-workout-app)
+
+An app for guiding home workouts with exercise routines, timers, and progress tracking. Introduces workout plans, timers, and exercise demonstrations.
+
+### 87. [Study Group Finder](./study-group-finder)
+
+A platform for finding and joining study groups, tutoring sessions, and study partners. Covers group listings, scheduling, and messaging.
+
+### 88. [Language Flashcard App](./language-flashcard-app)
+
+An app for learning language vocabulary through flashcards and spaced repetition. Introduces flashcard decks, memorization techniques, and progress tracking.
+
+### 89. [Budget Tracking Dashboard](./budget-tracking-dashboard)
+
+A dashboard for tracking and analyzing personal finances, expenses, and budgets. Covers budget visualization, expense categories, and trends.
+
+### 90. [Social Media Scheduler](./social-media-scheduler)
+
+A scheduler for planning and scheduling social media posts across platforms. Introduces post scheduling, content calendars, and analytics.
+
+### 91. [Study Planner](./study-planner)
+
+An app for planning study sessions, managing assignments, and tracking academic progress. Covers study schedules, task lists, and progress tracking.
+
+### 92. [Fitness Coaching App](./fitness-coaching-app)
+
+An app for providing personalized fitness coaching, workouts, and nutrition plans. Introduces coaching profiles, progress tracking, and client communication.
+
+### 93. [Event Management Platform](./event-management-platform)
+
+A platform for managing events, conferences, and trade shows. Covers event planning, registration, and attendee management.
+
+### 94. [Personal Goal Tracker](./personal-goal-tracker)
+
+An app for setting, tracking, and achieving personal goals and milestones. Introduces goal setting, progress tracking, and motivation techniques.
+
+### 95. [Language Exchange App](./language-exchange-app)
+
+An app for language learners to find language exchange partners and practice speaking skills. Covers language matching, chat, and video calls.
+
+### 96. [Recipe Sharing App](./recipe-sharing-app)
+
+An app for sharing and discovering recipes, cooking tips, and meal ideas. Introduces recipe sharing, comments, and ratings.
+
+### 97. [Home Budget Planner](./home-budget-planner)
+
+An app for planning and managing household budgets, expenses, and savings goals. Covers budget categories, expense tracking, and financial reports.
+
+### 98. [Coding Practice Platform](./coding-practice-platform)
+
+A platform for practicing coding exercises, algorithms, and data structures. Introduces coding challenges, solutions, and community discussions.
+
+### 99. [Personal Wellness App](./personal-wellness-app)
+
+An app for tracking and improving personal wellness, including physical activity, nutrition, and mental health. Covers wellness goals, tracking, and insights.
+
+### 100. [Book Discussion Forum](./book-discussion-forum)
+
+A forum for discussing books, literature, and literary analysis. Introduces book discussions, reviews, and author Q&A sessions.
