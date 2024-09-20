@@ -1,4 +1,4 @@
-# JavaScript Projects
+# TypeScript Projects
 
 This document outlines a series of Typescript programming projects, ranging from beginner to advanced levels. Each project includes a brief description.
 
